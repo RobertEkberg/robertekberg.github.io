@@ -6,11 +6,11 @@ excerpt: optimize for seo
 comments: false
 ---
 
-He's a student from Banyuwangi, living in Jogjakarta. the blog for documentation about his programming 🎒 journey, running on jekyll, hosting on [now.sh](http://now.sh) and using his own theme, he name it <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">klisé</a>, he also loves to learning web technology; but he often forgot, that a reason why him doing the writing.
+I'm a web analyst from Sweden, living in Kristianstad. This blog is for documentation in web analytics and web development.
 
-If you have a question about him or else, just send a letter to him.
+If you have a question about me, just send me an e-mail.
 
-You can [report](http://github.com/piharpi/jekyll-klise/issues/new) if there is an broken link(s) or somethings else.
+You can [report](https://github.com/RobertEkberg/robertekberg.github.io/issues/new/) if there is something broken.
 
 **contact ✨**
 
