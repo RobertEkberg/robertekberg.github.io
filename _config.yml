@@ -1,8 +1,7 @@
 # Site settings
 title: Robert Ekberg # site title
 description: >- # site description
-  I'm writing about web analytics and journaling 
-  things that i learned.
+  I'm creating content about analytics and implementation on the web. 
 lang: en-US # default lang
 timezone: # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
@@ -13,8 +12,7 @@ mode: dark # default theme "dark" | "light"
 author:
   name: Robert Ekberg # author name
   bio: >- # tell to the world
-    I'm writing about web analytics and journaling 
-    things that i learned.
+    I'm creating content about analytics and implementations on the web.
   username: Robert # general username
   github: RobertEkberg # github username
   twitter: twitter_username # twitter username
