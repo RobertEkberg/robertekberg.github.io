@@ -16,6 +16,8 @@
     letter-spacing: 0.5px;
 
     .tag {
+      font-family: roboto;
+      color: orange !important;
       font-weight: $bold-weight;
       font-size: $small-font-size - 2;
 
@@ -26,6 +28,8 @@
   }
 
   .header-title {
+    font-family: roboto;
+    text-transform:uppercase;
     font-size: 2em;
     line-height: 1.2;
     margin-top: 10px;
