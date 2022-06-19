@@ -2,7 +2,7 @@
 title: About
 permalink: /about/
 layout: page
-excerpt: optimize for seo
+excerpt: Here you can read more about robert ekberg, analytics and implementation.
 comments: false
 ---
 
@@ -14,7 +14,7 @@ If you have a question, just send me an e-mail.
 
 You can [report](https://github.com/RobertEkberg/robertekberg.github.io/issues/new/) if there is something broken.
 
-**contact ✨**
+**You can reach me here**
 
 - {{ site.author.email }}
 - github.com/{{ site.author.github }}

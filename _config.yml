@@ -1,7 +1,7 @@
 # Site settings
 title: Robert Ekberg # site title
 description: >- # site description
-  I'm creating content about analytics and implementation on the web. 
+  I'm creating content about analytics and implementation on the web.
 lang: en-US # default lang
 timezone: # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
@@ -58,7 +58,7 @@ jekyll_compose:
     description:
 
 # Homepage limit posts
-number_of_posts: 5
+number_of_posts: 7
 
 # Build settings
 # theme: klise
@@ -88,3 +88,4 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-postfiles
+
