@@ -33,6 +33,8 @@ First, install Visual Studio Code (VSCode). [Download Visual Studio Code](https:
 
 Second, open Visual Studio Code (VSCode). Press **shift + ctrl + p** and type **git clone** and navigate to the folder you want to clone your files in the repository to. (I recommend creating a new folder).
 
+<img src="{{site.baseurl}}../assets/img/vscode-clone.png">
+
 ## Install ruby and jekyll
 
 ### Install Ruby
@@ -71,3 +73,5 @@ If you have some basic knowledge of HTML and CSS you can know configure your web
 ## Deploy your website with Jekyll to github pages
 
 To deploy changes made to your website you press **ctrl + shift + p**, then type **git commit** then **git sync**. Your website will take a few minutes to build, but it should be update with the changes you have made.
+
+<img src="{{site.baseurl}}../assets/img/vscode-commit-sync.png">
