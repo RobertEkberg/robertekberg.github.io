@@ -36,10 +36,16 @@ Choose a folder where you want the content of the repository to be located on yo
 
 Open a new terminal and type the command 
 
+## Blocks of code
 Jekyll new . -–force
+```
+
 (this will install jekyll library to the folder)
 
+## Blocks of code
 bundle exec jekyll serve
+```
+
 (This will host your website locally)
 
 You can now press ctrl + shift +
