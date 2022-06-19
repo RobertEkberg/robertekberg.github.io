@@ -1,4 +1,4 @@
-- title: home
+- title: blog
   url: /
   external: false
 
@@ -10,7 +10,7 @@
   url: /about/
   external: false # set true if you using external link, see below
 
-# Example:
-# - title: github
-#   url: https://github.com/piharpi/jekyll-klise
-#   external: true
+ #Example:
+- title: 🇬🇭
+  url: https://github.com/RobertEkberg
+  external: true
