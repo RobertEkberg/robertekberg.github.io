@@ -1,7 +1,11 @@
 // Fonts preferences
 
-//$sans-family: Roboto, sans-serif;
-//$mono-family: Consolas, monospace;
+body{
+  font-family: 'Dosis', sans-serif !important; 
+}
+
+$sans-family: Roboto, sans-serif;
+$mono-family: Consolas, monospace;
 $base-font-size: 16px;
 $medium-font-size: $base-font-size * 0.938;
 $small-font-size: $base-font-size * 0.875;
