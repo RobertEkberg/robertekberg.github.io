@@ -4,55 +4,70 @@ date: 2022-06-19 10:01:47 +07:00
 modified: 2022-06-19 18:49:47 +07:00
 tags: [ruby, jekyll, github, website development]
 description: Here you can read how i created my own blog with github pages, jekyll, and ruby.
-image: assets/img/repository-github-pages-jekyll.png
 ---
 
-If you want to create a github pages website you need to have ruby and jekyll installed (I created my website on windows).
+## Introduction
 
-## SETTING UP THE REPOSITORY
+I have for a long time been thinking of having my own website posting things I learn and want others to learn. I’m not a developer so I didn't want to create anything complicated. 
 
-Choose your repository name where you will have your github pages website.
-Press create repository then go to repository settings.
+I found another blogger who created their blog with github pages, ruby and jekyll, so i gave it a try. I can tell you right now I love it!. It’s the perfect way if you have a little knowledge of HTML and CSS.
 
-<img src="{{site.baseurl}}../assets/img/repository-github-pages-jekyll.png">
+This is how you do it.
 
-Go to source, then change the source to be master branch. Below, you can also change the theme if you want, normally the standard theme will be minima.
+## Create a git repository on github.com
 
-You can now visit your website. Your website url will be **repositoryname.github.io**.
+Create an account on github if you dont already have one [github.com](https://github.com/). Once you have created your account you need to make a new repository. 
 
-(ignore the custom domain for now)
+Name the repository the same name you have on github. For example my name is “RobertEkberg” so my repository name would be robertekberg.github.io. 
 
-<img src="{{site.baseurl}}../assets/img/repository-settings.png">
+<img src="{{site.baseurl}}../assets/img/create-repository.png">
 
-## CONFIGURING THE WEBSITE
+When you have created your repository, find repository settings, then go to pages, and change source to **branch: master**.
 
-In order to configure your website, you need to download VSCode (Visual Studio Code).
+<img src="{{site.baseurl}}../assets/img/repository-settings-pages-master-branch.png">
 
-One you have downloaded VSCode and opened it, press ctrl + shift + p, and type “git clone”.
 
-Choose a folder where you want the content of the repository to be located on your computer.
+## Clone it to your local machine
 
-<img src="{{site.baseurl}}../assets/img/vscode-clone.png">
+First, install Visual Studio Code (VSCode). [Download Visual Studio Code](https://code.visualstudio.com/).
 
-Open a new terminal and type the command 
+Second, open Visual Studio Code (VSCode). Press **shift + ctrl + p** and type **git clone** and navigate to the folder you want to clone your files in the repository to. (I recommend creating a new folder).
+
+## Install ruby and jekyll
+
+### Install Ruby
+
+You can download ruby to your local machine here. [Download Ruby](https://www.ruby-lang.org/en/downloads/).
+
+### Install Jekyll
+
+To install jekyll to your local website folder typ
 
 ```
-Jekyll new . -–force
+jekyll new . --force
 ```
 
-(this will install jekyll library to the folder)
+If it doesnt work try to add **--force** at the end. This will overwrite files that are in the folder if its needed.
 
 ```
-bundle exec jekyll serve
+bundler update
 ```
+to update gem to latest versions (you might have to erase the **gemfile.lock** to run this command).
 
-(This will host your website locally)
+```
+bundler install
+```
+Will add the gem and gemfile.lock back after deleting it.
 
-You can now press ctrl + shift +
-p, and type "git commit" and you will you will upload changes you made locally on your computer to the repository.
+```
+bundle exec jekyll serve --livereload
+```
+This command will let you host your website from your computer, --livereload will let you see changes made to the website in real time (127.0.0.1:4000).
 
- <img src="{{site.baseurl}}../assets/img/vscode-commit-sync.png">
+## Build your website with jekyll
 
-Now you can edit and update your website.
+If you have some basic knowledge of HTML and CSS you can know configure your website. If you want to blog you can create new blog posts in _posts folder. You use [markdown](https://www.markdownguide.org/basic-syntax#overview) when you writing your posts and jekyll will build your website in HTML.
 
-You can create new posts by copying already existing blog posts in the _posts folder.
+## Deploy your website with Jekyll to github pages
+
+To deploy changes made to your website you press **ctrl + shift + p**, then type **git commit** then **git sync**. Your website will take a few minutes to build, but it should be update with the changes you have made.
