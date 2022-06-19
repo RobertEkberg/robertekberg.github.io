@@ -24,7 +24,7 @@ You can now visit your website. Your website url will be **repositoryname.github
 
 <img src="{{site.baseurl}}../assets/img/repository-settings.png">
 
-## CONFIGURING OUT WEBSITE
+## CONFIGURING THE WEBSITE
 
 In order to configure your website, you need to download VSCode (Visual Studio Code).
 
