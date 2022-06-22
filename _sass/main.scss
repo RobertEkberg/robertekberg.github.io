@@ -4,9 +4,7 @@ body{
   font-family: 'Dosis', sans-serif !important;
 }
 
-p{
-color: gainsboro !important;
-}
+
 
 $sans-family: Roboto, sans-serif;
 $mono-family: Consolas, monospace;
@@ -22,7 +20,7 @@ $bold-weight: 700;
 // $black-weight: 900; // uncomment if necessary
 
 //Light Colors
-$text-base-color: #434648;
+$text-base-color: #000000;
 $text-link-blue: #003fff;
 $text-link-blue-active: #0036c7;
 
@@ -33,7 +31,7 @@ $gray: #6b7886;
 $white: #fff;
 
 // Dark Colors
-$dark-text-base-color: #c7bebe;
+$dark-text-base-color: #ffffff;
 $dark-text-link-blue: #ff5277;
 $dark-text-link-blue-active: #ff2957;
 
