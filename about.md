@@ -10,12 +10,11 @@ HEJ,
 I'm Robert,
 I'm Dyslexic.
 
-I'm advocating for accessibility
-because the ability to access benefits everyone.
+I have worked as a web analyst before. Where i collected, analyzed and took actions on insights i found in the data. My focus was mainly on implementation of tracking code on websites. Now, im currently studying mainframe and COBOL.
 
-I'm also a web analyst living in sweden, i have been working with analytics for about 4 years. I love combine my creative and analytical skills. That's why i also later chose to study UX.
+I love to explore and learn new things thats why i have certificates and education in many areas, like Analytics, UX and Mainframe.
 
-I will use this blog to create content about analytics and implementation on the web. I will also use it for documentation of what i learn.
+This blog will be used for creating content about analytics, ux and mainframe. I will use if for documentation of what i learn.
 
 If you have a question, just send me an e-mail.
 
