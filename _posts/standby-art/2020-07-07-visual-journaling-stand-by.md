@@ -13,7 +13,7 @@ You don't have to write letters or words in a blog post. You can communicate fee
 I think i will do this more.
 
 # 1
-Clock in the tunnel
+Clock in the tunnel.
 
 <img src="{{site.baseurl}}../assets/img/stanfbyartnft1.png">
 
