@@ -8,7 +8,7 @@ description: How you can journal without writing in words, visual journaling.
 
 # Visual Journaling
 
-You don't have to write letters or words in a blog post. You can communicate feelings and thoughts with visuals. I don't think you see this format to much because journal is usually kept to oneself. I really like to communicate this way, maybe because im dyslexic?
+You don't have to write letters or words in a blog post. You can communicate feelings and thoughts with visuals. I don't think you see this format to much because journaling is usually kept to oneself. I really like to communicate this way, maybe because im dyslexic?
 
 I think i will do this more.
 
