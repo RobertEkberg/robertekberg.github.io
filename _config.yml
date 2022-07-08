@@ -12,7 +12,7 @@ mode: dark # default theme "dark" | "light"
 author:
   name: Robert Ekberg # author name
   bio: >- # tell to the world
-    I'm creating content about analytics, ux and mainframe.
+    I'm journaling and creating content about analytics, ux and mainframe.
   username: Robert # general username
   github: RobertEkberg # github username
   twitter: twitter_username # twitter username
