@@ -7,8 +7,7 @@ comments: false
 ---
 
 HEJ,
-I'm Robert,
-I'm Dyslexic.
+I'm Robert.
 
 I have worked as a web analyst before. Where i collected, analyzed and took actions on insights i found in the data. My focus was mainly on implementation of tracking code on websites. Now, im currently studying mainframe and COBOL.
 
