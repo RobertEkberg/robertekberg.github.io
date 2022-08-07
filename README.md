@@ -1,2 +1,3 @@
-# Blog about Analytics and Implementation
-www.robertekberg.dev
+# Personal Blog
+## Writign about Analytics and Mainframes
+
