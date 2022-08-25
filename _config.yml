@@ -3,7 +3,7 @@ title: Robert Ekberg # site title
 description: >- # site description
   blog that provides insight on analytics, ux and mainframe.
 lang: en-US # default lang
-timezone: # set your timezone
+timezone: # timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
 repo: https://github.com/RobertEkberg/robertekberg.github.io # site repo [optional]
 mode: dark # default theme "dark" | "light"
@@ -23,8 +23,8 @@ author:
 # URL settings
 url: "https://robertekberg.dev" #
 baseurl: ""
-permalink: /:title/
-google_analytics: # leave it blank if not wish
+permalink: /:title
+google_analytics: "GTM-5567JZV"
 fb_appid:
 
 # Collection setting
