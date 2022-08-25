@@ -24,7 +24,7 @@ author:
 url: "https://robertekberg.dev" #
 baseurl: ""
 permalink: /:title
-google_analytics: "GTM-5567JZV"
+google_analytics: # Only global site tag
 fb_appid:
 
 # Collection setting

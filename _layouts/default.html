@@ -4,12 +4,14 @@ layout: compress
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: " en " }}">
 {% if jekyll.environment == 'production' %}
-{% include analytics.html %}
+{% include analytics-head.html %}
 {% endif %}
 {% include header.html %}
 
 <body data-theme="{{ site.mode }}" class="notransition">
-
+  {% if jekyll.environment == 'production' %}
+  {% include analytics-body.html %}
+  {% endif %}
   <script>
     const body = document.body;
     const data = body.getAttribute("data-theme");
